@@ -1,0 +1,62 @@
+@media screen and (max-width: 1178px){
+    html{
+        scroll-behavior: smooth;
+    }
+    .nav-list{
+        flex-direction: column;
+    }
+    .navbar{
+        flex-direction: column;
+        height: 375px;
+        transition: all 0.2s ease-in;
+    }
+    .logo{
+        margin-top: 10px;
+    }
+    .rightnav{
+        text-align: center;
+    }
+   .btn-sm{
+        margin-top: 10px;
+        width: 50px;
+    }
+    #search{
+        width: 100%;
+    }
+    .burger{
+        display: block;
+    }
+    .h-class-resp{
+        height: 55px;
+    }
+    .v-class-resp{
+        opacity: 0;
+    }
+    .box-main{
+        flex-direction: column-reverse;
+        max-width: 100%;
+    }
+    .section{
+        display: flex;
+        flex-direction: column;
+        margin: 20px auto;
+        text-align: center;
+        padding: 0;
+    }
+    .text-small{
+        text-align: center;
+    }
+    .text-big{
+        text-align: center;
+    }
+    .buttons{
+        text-align: center;
+    }
+    .paragraph{
+        padding: 5px;
+        margin:5px;
+    }
+    .foot{
+       font-size: 13px;
+    }
+}
